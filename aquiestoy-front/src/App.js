@@ -20,7 +20,7 @@ class App extends Component {
         <div className='navi'>
         <div />
         <nav>
-          <Link exact to="/">Inicio</Link>
+          <Link exact to="/">Iniciog</Link>
           <Link to="/anuncios">Noticias</Link>
           <Link to="/profile">Perfil</Link>
           <Button className='logout' type="dashed" onClick={this.logOut}>Cerrrar sesion</Button>
